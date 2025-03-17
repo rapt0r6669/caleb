@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caleb’s Gate - Welcome to My World</title>
+    <meta name="description" content="The official homepage of Caleb Taylor. Firefighting, gaming, travel, van life, and more.">
+
+    <style>
+        /* General Styles */
+        html, body {
+            width: 100%;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            background-color: #002A00;
+            background-image: url('https://www.heavensgate.com/img/tile.jpg');
+            background-repeat: repeat;
+            color: #74d600;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            overflow-x: hidden;
+        }
+
+        #wrapper {
+            width: 90%;
+            max-width: 900px;
+            padding: 20px;
+            background-color: rgba(0, 50, 0, 0.9);
+            border: 3px solid #00CC00;
+            border-radius: 10px;
+            box-sizing: border-box;
+            position: relative;
+            text-align: left;
+            min-height: 80vh;
+            margin: 5vh auto;
+            padding-top: 20px;
+        }
+
+        /* Header */
+        .header-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 5px;
+        }
+
+        /* Earth Image */
+        .header-image {
+            max-width: 150px;
+            margin-bottom: -5px;
+        }
+
+        h1 {
+            color: #33CCFF;
+            font-size: 28px;
+            text-shadow: 2px 2px #0B0B3B;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        /* Horizontal Rule */
+        hr {
+            border: 1px solid #00CC00;
+            width: 85%;
+            margin: 8px auto;
+        }
+
+        /* Navigation Bar */
+        .nav-container {
+            background-color: #003B00;
+            padding: 10px;
+            border-radius: 8px;
+            display: grid;
+            grid-template-columns: repeat(4, auto);
+            justify-content: center;
+            gap: 5px 10px;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        .nav-container a {
+            color: #00d27f !important;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 8px;
+            white-space: nowrap;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 3px;
+        }
+        
+                .nav-container a:hover {
+            color: #00ff83 !important;
+        }
+
+        /* Content */
+        .content {
+            text-align: left;
+            font-size: 17px;
+            padding: 10px;
+            max-width: 90%;
+            margin: 0 auto;
+        }
+
+        h2 {
+            color: #adff00;
+            font-size: 24px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+
+        /* Profile Images */
+        .profile-pic {
+            display: block;
+            margin: 10px auto;
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            border: 2px solid #00CC00;
+        }
+
+        .header-image {
+            border: none;
+        }
+
+        @media (min-width: 768px) {
+            .profile-pic {
+                max-width: 400px;
+            }
+            .content {
+                max-width: 600px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .profile-pic {
+                max-width: 500px;
+            }
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #00FF00;
+            text-align: center;
+        }
+
+        /* Responsive Fixes */
+        @media (max-width: 600px) {
+            .nav-container {
+                grid-template-columns: repeat(2, auto);
+                max-width: 90%;
+            }
+        }
+
+        @media (min-width: 768px) {
+            h1 {
+                font-size: 38px;
+            }
+
+            .nav-container a {
+                font-size: 20px;
+            }
+
+            .content {
+                font-size: 18px;
+            }
+
+            h2 {
+                font-size: 26px;
+            }
+
+            footer {
+                font-size: 16px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            h1 {
+                font-size: 42px;
+            }
+
+            .content {
+                font-size: 20px;
+            }
+
+            .nav-container a {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="wrapper">
+        <div class="header-container">
+            <img src="https://calebtaylor.neocities.org/wwworld.gif" alt="Earth Pixel Art" class="header-image">
+            <h1>CALEB’S WORLD</h1>
+        </div>
+        <hr id="nav-hr">
+
+        <div class="nav-container" id="nav-bar">
+            <a href="https://calebtaylor.neocities.org">🌎 About Me</a>
+            <a href="https://calebtaylor.neocities.org/projects.html">🧠 Projects</a>
+            <a href="https://calebtaylor.neocities.org/firefighting.html">🔥 Firefighting</a>
+            <a href="https://calebtaylor.neocities.org/contact.html">💌 Contact</a>
+        </div>
+
+        <div class="content">
+            <h2>Welcome!</h2>
+            <p>I’m Caleb.</p>
+            <p>Professionally, I currently represent the City of San Francisco as a hospitality ambassador downtown. In this role, I assist the general street population to help the city be a safer and friendlier place.</p>
+
+            <img src="https://calebtaylor.neocities.org/ambassador.jpeg" alt="Caleb as an Ambassador" class="profile-pic">
+
+            <p>I love people. If there’s a reason to celebrate, you’ll find me there. My interests include hosting and attending events, arts, music, photography, technology, and riding my motorcycle, just to name a few.</p>
+
+            <img src="https://calebtaylor.neocities.org/me.jpeg" alt="Caleb Taylor" class="profile-pic">
+        </div>
+
+        <hr id="footer-hr">
+
+        <footer>
+            <p>🌎 Caleb's Gate © 2025 🌎</p>
+        </footer>
+    </div>
+</body>
+</html>
